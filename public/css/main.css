@@ -1,0 +1,104 @@
+/*font classes*/
+/*=========================*/
+
+.pacifico{
+    font-family: 'Pacifico' ,cursive;
+}
+
+.lobster{
+    font-family: 'lobster',cursive;
+}
+
+.danscr{
+    font-family: 'Dancing Script', cursive;
+}
+.orbit{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*navbar background color*/
+/*=====================================================================================================*/
+#navcol{
+  background: #6441A5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar-inverse .navbar-brand {
+     color: white;
+}
+
+.active{
+    background-color: linear-gradient(to left, #45a247, #283c86);
+}
+/*=======================================================================================================*/
+
+/*first container styling*/
+/*=======================================================================================================*/
+
+#firstcont{
+  margin-top: -25px;
+  width: 100%;
+  height: 600px;
+  background:url("/img/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#firstcont{
+  color: white;
+ font-family: 'Pacifico', cursive;;
+
+}
+
+#text{
+  padding-top: 150px;
+}
+
+#arrow{
+
+  padding-top: 50px;
+  padding-left: 50%;
+  color: white;
+
+}
+/*=====================================================================================================*/
+/*section2 styling*/
+/*===========================================================================================*/
+#about{
+  padding-top: 85px;
+  padding-bottom: 75px;
+}
+
+
+
+/*=================================================================================================*/
+/*education section styling*/
+/*===================================================================================================*/
+#Education{
+background: #2196f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: auto;
+}
+
+#Education .container{
+    padding-left: 2%;
+
+
+}
+.center{
+  width:inherit;
+}
+#Education p{
+    color: white;
+
+}
+.icon container{
+  width:100px;
+   height:100px;
+  position:relative;
+}
